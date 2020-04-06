@@ -1,1 +1,2 @@
 ![build](https://github.com/amrsamii/Kotlin-GitHub-actions/workflows/Java%20CI%20with%20Maven/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=amrsamii_Kotlin-GitHub-actions&metric=alert_status)](https://sonarcloud.io/dashboard?id=amrsamii_Kotlin-GitHub-actions)
