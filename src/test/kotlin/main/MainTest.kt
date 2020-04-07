@@ -27,6 +27,6 @@ internal class MainTest {
         val z = sub(x, y)
 
         // Assert
-        assertThat(z).isEqualTo(x - y)
+        assertThat(z).isEqualTo(x * y)
     }
 }
