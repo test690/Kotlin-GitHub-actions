@@ -16,4 +16,17 @@ internal class MainTest {
         // Assert
         assertThat(z).isEqualTo(x + y)
     }
+
+    @Test
+    fun `test subtraction`() {
+        // Arrange
+        val x = 5
+        val y = 6
+
+        // Act
+        val z = sub(x, y)
+
+        // Assert
+        assertThat(z).isEqualTo(x - y)
+    }
 }
