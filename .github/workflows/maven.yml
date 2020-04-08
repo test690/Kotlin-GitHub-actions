@@ -28,6 +28,7 @@ jobs:
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.organization=amrsamii
           -Dsonar.projectKey=amrsamii_Kotlin-GitHub-actions
+          -Dsonar.login=3b5bece9a045ea9ae6db7cd5acdf9c255c1d611a
           -Dsonar.scm.disabled=True
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
